@@ -1,0 +1,106 @@
+body {
+  background: #f1f2f6;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  width: 1050px;
+  padding: 30px 20px;
+  font-weight: 700;
+}
+.Header img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+.Money {
+  color: #fff;
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
+  padding: 20px;
+  font-size: 32px;
+  width: 55%;
+  font-weight: 700;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.Product {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+}
+.Product img {
+  max-width: 40%;
+  padding: 10px;
+}
+.Product .Price {
+  color: #2ecc71;
+}
+.butons {
+  padding: 15px;
+}
+.Sell {
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(180deg, #f53b82, #f53b57);
+  color: #fff;
+  width: 70px;
+  border: none;
+}
+.butons input {
+  font-weight: 700;
+  width: 80px;
+  height: 33px;
+  margin: 10px;
+  text-align: center;
+}
+.Buy {
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
+  color: #fff;
+  width: 70px;
+  border: none;
+}
+.Total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  width: 55%;
+  height: 350px;
+  border-radius: 3px;
+  overflow: hidden;
+}
